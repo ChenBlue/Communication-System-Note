@@ -32,12 +32,7 @@ $G\_{+}(f)=G(f)+j[-jsgn(f)G(f)]=[1+sgn(f)]G(f)=2G(f)$, if f>0
 	複包跡即為欲傳之訊號
 
 </br>
-**In phase component** of g(t): $g\_{I}(t)=Re[\tilde{g}(t)]=\frac{\tilde{g}(t)+\tilde{g}\^\* (t)}{2}$ </br>
-$G\_{I}(f)=G(f-f\_{c})+G(f+f\_{c}),|f|<W$
-</br> </br>
-**Quadrature phase component** of g(t): $g\_{Q}(t)=Im[\tilde{g}(t)]=\frac{\tilde{g}(t)-\tilde{g}\^\* (t)}{2j}$ </br>
-$\frac{1}{j}G\_{Q}(f)=G(f-f\_{c})-G(f+f\_{c}),|f|<W$
-</br> </br>
+**In phase component** of g(t)
 
 # 帶通訊號等效表示法
 1. $g(t)=Re[\tilde{g}(t)e\^{j2\pi f\_{0}t}]$
