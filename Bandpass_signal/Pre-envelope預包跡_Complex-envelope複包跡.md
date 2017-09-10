@@ -7,7 +7,7 @@ http://www.ni.com/white-paper/3013/zht/
   
 若g(t)為以f<sub>c</sub>為中心頻率的帶通訊號。  
 
-預包跡Pre-envelope:$g\_{+}(t)=g(t)+j\hat{g}(t)=\widetilde{g(t)}e\^{j2\pi f\_{0}t}=[g\_{I}(t)+jg\_{Q}(t)]e\^{j2\pi f\_{0}t}=[A(t)e\^{j\phi t}]e\^{j2\pi f\_{0}t}$
+預包跡Pre-envelope: $g\_{+}(t)=g(t)+j\hat{g}(t)=\widetilde{g(t)}e\^{j2\pi f\_{0}t}=[g\_{I}(t)+jg\_{Q}(t)]e\^{j2\pi f\_{0}t}=[A(t)e\^{j\phi t}]e\^{j2\pi f\_{0}t}$
 	
 
 > 註： $\hat{g}(t)$ 是g(t)的Hilbert Transform，詳情請參閱https://zh.wikipedia.org/wiki/%E5%B8%8C%E7%88%BE%E4%BC%AF%E7%89%B9%E8%BD%89%E6%8F%9B  
@@ -19,7 +19,10 @@ $G\_{+}(f)=G(f)+j[-jsgn(f)G(f)]=[1+sgn(f)]G(f)=2G(f)$, if f>0
 
 # Spectrum of pre-envelope & complex envelope
 帶通訊號g(t) → G(f)  
-![alt text](https://github.com/ChenBlue/Communication-System-Note/blob/master/Bandpass_signal/G(f).png)
-
-
-
+![alt text](https://github.com/ChenBlue/Communication-System-Note/blob/master/Bandpass_signal/G(f).png)    
+  
+預包跡Pre-envelope: $g\_{+}(t)=g(t)+j\hat{g}(t)$ → $G\_{+}(f)$   
+![alt text](https://github.com/ChenBlue/Communication-System-Note/blob/master/Bandpass_signal/G%2B(f).png)    
+  
+複包跡Complex-envelope: $\hat{g}(t)=g\_{+}(t)e\^{-j2\pi f\_{0}t}=g\_{I}(t)+jg\_{Q}(t)$   
+![alt text](https://github.com/ChenBlue/Communication-System-Note/blob/master/Bandpass_signal/G~(f).png)      
