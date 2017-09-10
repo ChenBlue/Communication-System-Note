@@ -1,6 +1,6 @@
 # 帶通訊號 Bandpass signal
 利用較高頻的載波訊號來傳遞我們想傳的訊息，將此訊號畫出頻譜，會發現頻譜會落在兩側，因此我們將其稱為帶通訊號(Bandpass signal)。詳情可以參照以下網址
-http://www.ni.com/white-paper/3013/zht/  
+http://www.ni.com/white-paper/3013/zht/  </br>
 
 # Pre-envelope 預包跡 & Complex-envelope 複包跡
 而當我們在處理一個帶通訊號時，我們可以將帶通訊號簡化成一個低頻的訊號來看，這樣子計算上會較簡單，此簡化後的低頻訊號即為複包跡也是我們想傳遞的訊息。  
@@ -16,25 +16,26 @@ http://www.ni.com/white-paper/3013/zht/
   
 $G\_{+}(f)=G(f)+j[-jsgn(f)G(f)]=[1+sgn(f)]G(f)=2G(f)$, if f>0  
 > 口訣：正頻率乘2倍
+</br>
 
 # Spectrum of pre-envelope & complex envelope
-帶通訊號g(t) → G(f)  
++ 帶通訊號g(t) → G(f)  
 ![alt text](https://github.com/ChenBlue/Communication-System-Note/blob/master/Bandpass_signal/G(f).png)    
 </br>
 </br>
-預包跡Pre-envelope: $g\_{+}(t)=g(t)+j\hat{g}(t)$ → $G\_{+}(f)$ </br>
++ 預包跡Pre-envelope: $g\_{+}(t)=g(t)+j\hat{g}(t)$ → $G\_{+}(f)$ </br>
 ![alt text](https://github.com/ChenBlue/Communication-System-Note/blob/master/Bandpass_signal/G%2B(f).png)    
 </br> </br>
-複包跡Complex-envelope: $\tilde{g}(t)=g\_{+}(t)e\^{-j2\pi f\_{0}t}=g\_{I}(t)+jg\_{Q}(t) → \tilde{G}(f)= G\_{+}(f+f\_{c})$ (預包跡回原點)</br>
++ 複包跡Complex-envelope: $\tilde{g}(t)=g\_{+}(t)e\^{-j2\pi f\_{0}t}=g\_{I}(t)+jg\_{Q}(t) → \tilde{G}(f)= G\_{+}(f+f\_{c})$ (預包跡回原點)</br>
 ![alt text](https://github.com/ChenBlue/Communication-System-Note/blob/master/Bandpass_signal/G~(f).png) </br>
 
 	複包跡即為欲傳之訊號
-</br> </br>
-**In-phase component** of g(t): $g\_{I}(t)=Re[\tilde{g}(t)]=\frac{\tilde{g}(t)+\tilde{g}\^{\*}(t)}{2}$ </br>
+</br>
++ In-phase component of g(t): $g\_{I}(t)=Re[\tilde{g}(t)]=\frac{\tilde{g}(t)+\tilde{g}\^{\*}(t)}{2}$ </br>
 $G\_{I}(f)=G(f-f\_{c})+G(f+f\_{c}),|f|<W$ </br>
 </br>
-**Quadrature-phase component** of g(t): $g\_{Q}(t)=Im[\tilde{g}(t)]=\frac{\tilde{g}(t)-\tilde{g}\^{\*}(t)}{2j}$ </br>
-$\frac{1}{j}G\_{Q}(f)=G(f-f\_{c})-G(f+f\_{c}),|f|<W$ </br>
++ Quadrature-phase component of g(t): $g\_{Q}(t)=Im[\tilde{g}(t)]=\frac{\tilde{g}(t)-\tilde{g}\^{\*}(t)}{2j}$ </br>
+$\frac{1}{j}G\_{Q}(f)=G(f-f\_{c})-G(f+f\_{c}),|f|<W$ </br> </br>
 
 # 帶通訊號等效表示法
 1. $g(t)=Re[\tilde{g}(t)e\^{j2\pi f\_{0}t}]$
