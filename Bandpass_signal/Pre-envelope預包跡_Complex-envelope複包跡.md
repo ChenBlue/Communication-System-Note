@@ -25,7 +25,11 @@ $G\_{+}(f)=G(f)+j[-jsgn(f)G(f)]=[1+sgn(f)]G(f)=2G(f)$, if f>0
 預包跡Pre-envelope: $g\_{+}(t)=g(t)+j\hat{g}(t)$ → $G\_{+}(f)$ </br>
 ![alt text](https://github.com/ChenBlue/Communication-System-Note/blob/master/Bandpass_signal/G%2B(f).png)    
 </br> </br>
-複包跡Complex-envelope: $\tilde{g}(t)=g\_{+}(t)e\^{-j2\pi f\_{0}t}=g\_{I}(t)+jg\_{Q}(t) → \tilde{G}(f)= $G\_{+}(f+f\_{c})$ (預包跡回原點)</br>
+複包跡Complex-envelope: $\tilde{g}(t)=g\_{+}(t)e\^{-j2\pi f\_{0}t}=g\_{I}(t)+jg\_{Q}(t) → \tilde{G}(f)= G\_{+}(f+f\_{c})$ (預包跡回原點)</br>
 ![alt text](https://github.com/ChenBlue/Communication-System-Note/blob/master/Bandpass_signal/G~(f).png) </br>
 </br>
-Inphase component of g(t): $g\_{I}(t)=Re\{\tilde{g}(t)\}=\frac{\tilde{g}(t)+\tilde{g}\^{\*}(t)}{2}$
+**In-phase component** of g(t): $g\_{I}(t)=Re[\tilde{g}(t)]=\frac{\tilde{g}(t)+\tilde{g}\^{\*}(t)}{2}$ </br>
+$G\_{I}(f)=G(f-f\_{c})+G(f+f\_{c}),|f|<W$ </br>
+</br>
+**Quadrature-phase component** of g(t): $g\_{Q}(t)=Im[\tilde{g}(t)]=\frac{\tilde{g}(t)-\tilde{g}\^{\*}(t)}{2j}$ </br>
+$\frac{1}{j}G\_{Q}(f)=G(f-f\_{c})-G(f+f\_{c}),|f|<W$ </br>
