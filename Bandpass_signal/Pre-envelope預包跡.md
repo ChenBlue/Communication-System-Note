@@ -10,5 +10,4 @@ http://www.ni.com/white-paper/3013/zht/
 $$ evidence\_{i}=\sum\_{j}W\_{ij}x\_{j}+b\_{i} $$
 
 $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$ 
-其預包跡 $g\_{+}(t)=g(t)+j\hat{g}(t)=\widetilde{g(t)}e\^{2\pi}=$  
-$[g\_{I}(t)+jg\_{Q}(t)]e\^{2\pi f\_{0}t}$
+其預包跡 $g\_{+}(t)=g(t)+j\hat{g}(t)=\widetilde{g(t)}e\^{j2\pi f\_{0}t}=[g\_{I}(t)+jg\_{Q}(t)]e\^{j2\pi f\_{0}t}=[A(t)e\^{j\phi t}]e\^{j2\pi f\_{0}t}$  
