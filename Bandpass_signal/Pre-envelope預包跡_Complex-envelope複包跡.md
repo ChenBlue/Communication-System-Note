@@ -31,7 +31,6 @@ $G\_{+}(f)=G(f)+j[-jsgn(f)G(f)]=[1+sgn(f)]G(f)=2G(f)$, if f>0
 
 	複包跡即為欲傳之訊號
 
-</br>
 **In phase component** of g(t)
 
 # 帶通訊號等效表示法
