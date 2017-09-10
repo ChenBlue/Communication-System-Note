@@ -18,7 +18,7 @@ $G\_{+}(f)=G(f)+j[-jsgn(f)G(f)]=[1+sgn(f)]G(f)=2G(f)$, if f>0
 > 口訣：正頻率乘2倍
 
 # Spectrum of pre-envelope & complex envelope
-帶通訊號g(t) \rightleftharpoons G(f)
+帶通訊號g(t) → G(f)  
 ![alt text](https://github.com/ChenBlue/Communication-System-Note/blob/master/Bandpass_signal/G(f).png)
 
 
