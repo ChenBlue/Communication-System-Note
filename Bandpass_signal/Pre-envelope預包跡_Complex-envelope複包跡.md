@@ -33,3 +33,7 @@ $G\_{I}(f)=G(f-f\_{c})+G(f+f\_{c}),|f|<W$ </br>
 </br>
 **Quadrature-phase component** of g(t): $g\_{Q}(t)=Im[\tilde{g}(t)]=\frac{\tilde{g}(t)-\tilde{g}\^{\*}(t)}{2j}$ </br>
 $\frac{1}{j}G\_{Q}(f)=G(f-f\_{c})-G(f+f\_{c}),|f|<W$ </br>
+
+# 帶通訊號等效表示法
+1. $g(t)=Re[\tilde{g}(t)e\^{j2\pi f\_{0}t}]$
+2. $g(t)=g\_I (t)cos(2\pi )$
