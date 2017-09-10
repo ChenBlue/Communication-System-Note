@@ -21,8 +21,9 @@ $G\_{+}(f)=G(f)+j[-jsgn(f)G(f)]=[1+sgn(f)]G(f)=2G(f)$, if f>0
 帶通訊號g(t) → G(f)  
 ![alt text](https://github.com/ChenBlue/Communication-System-Note/blob/master/Bandpass_signal/G(f).png)    
 </br>
+</br>
 預包跡Pre-envelope: $g\_{+}(t)=g(t)+j\hat{g}(t)$ → $G\_{+}(f)$ </br>
 ![alt text](https://github.com/ChenBlue/Communication-System-Note/blob/master/Bandpass_signal/G%2B(f).png)    
-</br>
-複包跡Complex-envelope: $\hat{g}(t)=g\_{+}(t)e\^{-j2\pi f\_{0}t}=g\_{I}(t)+jg\_{Q}(t)$   
+</br> </br>
+複包跡Complex-envelope: $\hat{g}(t)=g\_{+}(t)e\^{-j2\pi f\_{0}t}=g\_{I}(t)+jg\_{Q}(t)$</br>
 ![alt text](https://github.com/ChenBlue/Communication-System-Note/blob/master/Bandpass_signal/G~(f).png)      
