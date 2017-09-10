@@ -11,4 +11,4 @@ $$ evidence\_{i}=\sum\_{j}W\_{ij}x\_{j}+b\_{i} $$
 
 $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$ 
 其預包跡 $g\_{+}(t)=g(t)+j\hat{g}(t)=\widetilde{g(t)}e\^{2\pi}=$  
-${g\_{I}(t)+jg\_{Q}(t)]e\^{2\pi f_{0}t}$
+${g\_{I}(t)+jg\_{Q}(t)]e\^{2\pi ft}$
