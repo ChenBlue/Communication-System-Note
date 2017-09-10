@@ -36,4 +36,5 @@ $\frac{1}{j}G\_{Q}(f)=G(f-f\_{c})-G(f+f\_{c}),|f|<W$ </br>
 
 # 帶通訊號等效表示法
 1. $g(t)=Re[\tilde{g}(t)e\^{j2\pi f\_{0}t}]$
-2. $g(t)=g\_I (t)cos(2\pi )$
+2. $g(t)=g\_I (t)cos(2\pi f_0 t)-g_Q (t)sin(2\pi f_0 t)$
+3. $g(t)=A(t)cps(2\pi f_0 t+\phi (t))$, and $A(t)=\sqrt{g_I ^2 (t)+g_Q ^2 (t)}$, $\phi (t)=tan^-1 (\frac{g_Q (t)}{g_I (t)})$
