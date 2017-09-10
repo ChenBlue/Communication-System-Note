@@ -29,8 +29,7 @@ $G\_{+}(f)=G(f)+j[-jsgn(f)G(f)]=[1+sgn(f)]G(f)=2G(f)$, if f>0
 ![alt text](https://github.com/ChenBlue/Communication-System-Note/blob/master/Bandpass_signal/G~(f).png) </br>
 
 	複包跡即為欲傳之訊號
-</br>
-</br>
+</br> </br>
 **In-phase component** of g(t): $g\_{I}(t)=Re[\tilde{g}(t)]=\frac{\tilde{g}(t)+\tilde{g}\^{\*}(t)}{2}$ </br>
 $G\_{I}(f)=G(f-f\_{c})+G(f+f\_{c}),|f|<W$ </br>
 </br>
