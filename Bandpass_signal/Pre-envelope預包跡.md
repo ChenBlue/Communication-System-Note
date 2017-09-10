@@ -15,6 +15,7 @@ http://www.ni.com/white-paper/3013/zht/
 預包跡經傅立葉轉換後得到的頻譜為：  
   
 $G\_{+}(f)=G(f)+j[-jsgn(f)G(f)]=[1+sgn(f)]G(f)=2G(f)$, if f>0  
+> 口訣：正頻率乘2倍
 
 
 
