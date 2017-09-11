@@ -23,7 +23,7 @@ $a_0=\frac{1}{T_0}  \int\_{\frac{-T_0}{4}}\^{\frac{T_0}{4}}1\ \mathrm{d}t=\frac{
 $a_k=\frac{1}{T_0}  \int\_{\frac{-T_0}{4}}\^{\frac{T_0}{4}}exp(-jk2\pi f_c t)\ \mathrm{d}t=\frac{sin(\frac{1}{2}k\pi )}{k\pi }$ → if k is even, $a_k=0$ </br>
 $g\_{T_0}(t)=...+\frac{1}{\pi}exp(-j2\pi f_ct)+\frac{1}{2}+\frac{1}{\pi}exp(j2\pi f_c t)+...=\frac{1}{2}+\frac{2}{\pi}\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{2n-1}cos(2\pi f_c t(2n-1))$ </br>
 $V_2(t)\sim \frac{1}{2}Acos(2\pi f_c t)+\frac{1}{2}m(t)+\frac{A}{\pi}\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{2n-1}[cos(2\pi f_c.2nt)+cos(2\pi f_c(2n-2)t)]$ </br>
-   $+\frac{2}{\pi}\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{2n-1}m(t)cos[2\pi f_c (2n-1)t]$ </br>
+   &nbsp$+\frac{2}{\pi}\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{2n-1}m(t)cos[2\pi f_c (2n-1)t]$ </br>
 再讓$V_2(t)$通過中心頻率為$f_c$之帶通濾波器，可得</br>
 $S(t)=\frac{1}{2}Acos(2\pi f_c t)+\frac{2}{\pi}m(t)cos(2\pi f_c t)=\frac{1}{2}A[1+\frac{4}{\pi A}m(t)]cos(2\pi f_ct)=A_c[1+k_am(t)]cos(2\pi f_c t)$ </br>
 $A_c=\frac{1}{2}A\, k_a=\frac{4}{\pi A}$
