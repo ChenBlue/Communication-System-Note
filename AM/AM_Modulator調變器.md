@@ -19,5 +19,6 @@ $V_1 (t)=A_c cos(2\pi f_c t)+m(t) → V_2(t)~[Acos(2\pi f_c t)+m(t)]g\_{T_0} (t)
 $g\_{T_0} (t)$是週期週期性脈衝串(Periodic pulse train) </br>
 ![swithcing_modulator](https://github.com/ChenBlue/Communication-System-Note/blob/master/AM/periodic_pulse_train.jpg) </br>
 先找出$g\_{T_0}(t)$的Fourier Series: $g\_{T_0}(t)=\sum_{i=-\infty}^{\infty} a_k exp(jk2\pi f_c t)$ </br>
-$a_0=\frac{1}{T_0}  \int\_{\frac{-T_0}{4}}\^{frac{T_0}{4}}1\,\mathrm{d}t=\frac{1}{2}$</br>
+$a_0=\frac{1}{T_0}  \int\_{\frac{-T_0}{4}}\^{\frac{T_0}{4}}1\ \mathrm{d}t=\frac{1}{2}$</br>
+$a_k=\frac{1}{T_0}  \int\_{\frac{-T_0}{4}}\^{\frac{T_0}{4}}exp(-jk2\pi f_c t\ \mathrm{d}t=\frac{sin(\frac{1}{2}k\pi )}{k\pi }$ → if ke is even, $a_k=0$ </br>
 
