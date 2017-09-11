@@ -15,5 +15,6 @@ $S(t)=a_1 A[1+\frac{2a_2 }{a_1 }m(t)]cos(2\pi f_c t)=A_c [1+k_a m(t)]cos(2\pi f_
 
 ### 交換式調變器 (Switching Modulator)
 ![swithcing_modulator](https://github.com/ChenBlue/Communication-System-Note/blob/master/AM/switching-modulator.png) </br>
-$V_1 (t)=A_c cos(2\pi f_c t)+m(t) → V_2(t)~[Acos(2\pi f_c t)+m(t)]g_T0 (t)$ </br>
-$g_T0 (t)$是週期週期性脈衝串(Periodic pulse train) </br>
+$V_1 (t)=A_c cos(2\pi f_c t)+m(t) → V_2(t)~[Acos(2\pi f_c t)+m(t)]g\_{T0} (t)$ </br>
+$g\_{T0} (t)$是週期週期性脈衝串(Periodic pulse train) </br>
+![swithcing_modulator](https://github.com/ChenBlue/Communication-System-Note/blob/master/AM/periodic_pulse_train.jpg) </br>
