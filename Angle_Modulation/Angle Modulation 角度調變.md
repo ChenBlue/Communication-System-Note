@@ -14,3 +14,5 @@
 > $k_p$: 相位靈敏度; $k_f$:頻率靈敏度
 
 #### FM與PM之關係
+FM與PM信號之間可以互相轉換，根據以上表格，具有微分與積分的關係 </br>
+![Relation_btw_PM&FM](https://github.com/ChenBlue/Communication-System-Note/blob/master/Angle_Modulation/Material/Relation_between_FM_and_PM.PNG) </br>
