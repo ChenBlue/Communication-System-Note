@@ -9,7 +9,7 @@
 |   |$\theta _i (t)$ | $f_i (t)$|
 |----|--------------|----------|
 |未調變訊號|$2\pi f_c t$|$f_c$|
-|PM調變|*$2\pi fc t+k_p m(t)$*|$f_c +\frac{k_p}{2\pi}\frac{dm(t)}{dt}|
+|PM調變|*$2\pi fc t+k_p m(t)$*|$f_c +\frac{k_p}{2\pi}\frac{dm(t)}{dt}$|
 |FM調變|$2\pi fc t+2\pi k_f \int^t _0 m(\tau )d\tau$|*$f_c +k_f m(t)$*|
 > $k_p$: 相位靈敏度; $k_f$:頻率靈敏度
 
