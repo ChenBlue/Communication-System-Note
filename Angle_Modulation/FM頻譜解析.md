@@ -8,3 +8,8 @@ $\phi (t)=2\pi k_f \int_0 ^t m(\tau )d\tau =2\pi k_f \int_0 ^t A_m \cos(2\pi f_m
 > 若$\beta\ll 1\rightarrow \Delta f<<f_m$,稱為窄帶FM(Narrowband FM) </br>
 > 若$\Delta f\approx f_m or \Delta f>f_m$, 稱為寬帶FM(Wideband FM) </br>
 
+## 窄帶FM調變(NBFM)
+\\\TODO
+## 寬帶FM調變(WBFM)
+\\\TODO
+http://www.edaboard.com/thread236069.html
