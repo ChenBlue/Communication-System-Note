@@ -22,5 +22,10 @@ $\rightarrow S(t)\simeq A_c \cos (2\pi f_c t)-\beta A_c \sin (2\pi f_c t)\sin (2
 理想上，FM要有不變的envelope，但是對於NBFM來說，他有多餘的AM訊號[$\beta A_c \sin (2\pi f_c t)\sin (2\pi f_m t)$]，因此$\theta _i (t)$將有"Harmonic distortion"
 
 ## 寬帶FM調變(WBFM)
+> **$\beta$很大** </br>
+
+$S(t)=A_c\cos[2\pi f_c t+\beta \sin (2\pi f_m t)]=Re[A_c exp(j2\pi f_c t)exp(j\beta \sin (2\pi f_m t)]=Re[\tilde{S}(t)exp(j2\pi f_c t)]$ <\br>
+$\tilde{S}(t)$為S(t)之複包跡(Complex envelope),$\tilde{S}(t)=A_c exp(j\beta \sin (2\pi f_m t)=\sum^{\infty}_{n=-\infty} C_n exp(j2\pi nf_m t)$, 週期$T_m=\frac{1}{f_m}$ </br>
+
 \\\TODO
 http://www.edaboard.com/thread236069.html
