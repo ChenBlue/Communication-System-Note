@@ -10,11 +10,11 @@ $\phi (t)=2\pi k_f \int_0 ^t m(\tau )d\tau =2\pi k_f \int_0 ^t A_m \cos(2\pi f_m
 
 ## 窄帶FM調變(NBFM)
 $S(t)=A_c\cos[2\pi f_c t+\beta \sin (2\pi f_m t)]=A_c\cos(2\pi f_c t)\cos[\beta \sin (2\pi f_m t)]-A_c \sin(2\pi f_c t)\sin[\beta \sin (2\pi f_m t)] </br>
-若$\beta$很小: $\cos[\beta \sin (2\pi f_m t)]\simeq 1$, $\sin[\beta \sin (2\pi f_m t)]\simeq \beta \sin (2\pi f_m t)$ <\br>
+若$\beta$很小: $\cos[\beta \sin (2\pi f_m t)]\simeq 1$, $\sin[\beta \sin (2\pi f_m t)]\simeq \beta \sin (2\pi f_m t)$ </br>
 $\rightarrow S(t)\simeq A_c \cos (2\pi f_c t)-\beta A_c \sin (2\pi f_c t)\sin (2\pi f_m t)$ </br>
 與DSBSC做比較： $S(t)=A_c m(t)\cos (2\pi f_c t)$ </br>
 發現S(t)的第一項為載波訊號，第二項則類似DSBSC的調變訊號，可以用以下Block Diagram來產生NBFM調變訊號 </br>
-
+![Relation_btw_PM&FM](https://github.com/ChenBlue/Communication-System-Note/blob/master/Angle_Modulation/Material/Relation_between_FM_and_PM.PNG) </br>
 \\\TODO
 ## 寬帶FM調變(WBFM)
 \\\TODO
