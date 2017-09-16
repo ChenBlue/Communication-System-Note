@@ -27,8 +27,8 @@ $\rightarrow S(t)\simeq A_c \cos (2\pi f_c t)-\beta A_c \sin (2\pi f_c t)\sin (2
 $S(t)=A_c\cos[2\pi f_c t+\beta \sin (2\pi f_m t)]=Re[A_c exp(j2\pi f_c t)exp(j\beta \sin (2\pi f_m t)]=Re[\tilde{S}(t)exp(j2\pi f_c t)]$ </br>
 $\tilde{S}(t)$為S(t)之複包跡(Complex envelope),$\tilde{S}(t)=A_c exp(j\beta \sin (2\pi f_m t)=\sum^{\infty}_{n=-\infty} C_n exp(j2\pi nf_m t)$, 週期$T_m=\frac{1}{f_m}$ </br>
 其中，$C_n=\int ^{\frac{1}{2f_m}}_{\frac{-1}{2f_m}}A_c exp(j\beta sin(2\pi f_m t)exp(-j2\pi nf_m t)dt$ </br>
-令$x=2\pi f_m t \rightarrow C_n=\frac{A_c}{2\pi}\int ^{\pi}{-\pi}exp[j(\beta sinx-nx)]dx=A_c J_n(\beta) <\br>
-Bessel function $J_n(\beta)=\frac{1}{2\pi}\int ^{\pi}{-\pi}exp[j(\beta sinx-nx)]dx
+令$x=2\pi f_m t \rightarrow C_n=\frac{A_c}{2\pi}\int ^{\pi}{-\pi}exp[j(\beta sinx-nx)]dx=A_c J_n(\beta)$ </br>
+Bessel function $J_n(\beta)=\frac{1}{2\pi}\int ^{\pi}{-\pi}exp[j(\beta sinx-nx)]dx$ </br>
 > [Bessel function](https://zh.wikipedia.org/wiki/%E8%B4%9D%E5%A1%9E%E5%B0%94%E5%87%BD%E6%95%B0) </br>
 > 1. $J_n(\beta)=(-1)^n J_{-n}(\beta)$ </br>
 > 2. $\sum ^{\infty}_{n=-\infty}J_n ^2(\beta)=1$ </br>
