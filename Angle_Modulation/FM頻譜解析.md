@@ -42,5 +42,6 @@ Fourier Transform $\rightarrow S(f)=\frac{A_c}{2}\sum _{n=-\infty}^{\infty}J_n(\
 ###### NBFM
 **$\beta<<1$**
 $S(f)\sim \frac{A_c}{2} [\delta (f-f_c)+\delta(f+f_c)]+\frac {\beta A_c}{4}[\delta (f-f_c-f_m)+\delta (f+f_c+f_m)]-\frac {\beta A_c}{4}[\delta (f-f_c+f_m)+\delta (f+f_c-f_m)]$ </br>
+![NBFM_spectrum](https://github.com/ChenBlue/Communication-System-Note/blob/master/Angle_Modulation/Material/NBFM_spectrum.PNG) </br>
 \\\TODO
 http://www.edaboard.com/thread236069.html
