@@ -30,13 +30,17 @@ $\tilde{S}(t)=A_c exp[j\beta \sin (2\pi f_m t)]=\sum^{\infty} \_{n=-\infty} C_n 
 其中，$C_n=\int ^{\frac{1}{2f_m}}_{\frac{-1}{2f_m}}A_c exp[j\beta sin(2\pi f_m t)]exp(-j2\pi nf_m t)dt$ </br>
 令$x=2\pi f_m t \rightarrow C_n=\frac{A_c}{2\pi}\int ^{\pi}\_{-\pi}exp[j(\beta sinx-nx)]dx=A_c J_n(\beta)$ </br>
 Bessel function $J_n(\beta)=\frac{1}{2\pi}\int ^{\pi}\_{-\pi}exp[j(\beta sinx-nx)]dx$ </br>
+</br>
+$S(t)=A_c Re[\sum _{n=-\infty}^{\infty} J_n(\beta)e^{j2\pi (f_c+nf_m)t}]=A_c \sum _{n=-\infty}^{\infty} J_n(\beta)\cos[2\pi (f_c+nf_m)t]$ </br>
+Fourier Transform $\rightarrow S(f)=\frac{A_c}{2}\sum _{n=-\infty}^{\infty}J_n(\beta)[\delta (f-f_c-nf_m)+\delta (f+f_c+nf_m)]$ </br>
+
 > [Bessel function](https://zh.wikipedia.org/wiki/%E8%B4%9D%E5%A1%9E%E5%B0%94%E5%87%BD%E6%95%B0) </br>
 > 1. $J_n(\beta)=(-1)^n J_{-n}(\beta)$ </br>
 > 2. $\sum ^{\infty}_{n=-\infty}J_n ^2(\beta)=1$ </br>
 > 3. For $\beta \ll 1$, $J_0(\beta)\simeq 1$, $J_1(\beta)\simeq \frac{\beta}{2}$, $J_n(\beta)\simeq 0$ for $n\geq 2$ </br>
-</br>
-$S(t)=A_c Re[\sum _{n=-\infty}^{\infty} J_n(\beta)e^{j2\pi (f_c+nf_m)t}]=A_c \sum _{n=-\infty}^{\infty} J_n(\beta)\cos[2\pi (f_c+nf_m)t]$ </br>
-Fourier Transform $\rightarrow S(f)=\frac{A_c}{2}\sum _{n=-\infty}^{\infty}J_n(\beta)[\delta (f-f_c-nf_m)+\delta (f+f_c+nf_m)]$
 
+###### NBFM
+**$\beta<<1$**
+$S(f)\sim \frac{A_c}{2} [\delta (f-f_c)+\delta(f+f_c)]+\frac {\beta A_c}{4}[\delta (f-f_c-f_m)+\delta (f+f_c+f_m)]-\frac {\beta A_c}{4}[\delta (f-f_c+f_m)+\delta (f+f_c-f_m)]$ </br>
 \\\TODO
 http://www.edaboard.com/thread236069.html
