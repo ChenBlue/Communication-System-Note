@@ -35,8 +35,8 @@ Bessel function $J_n(\beta)=\frac{1}{2\pi}\int ^{\pi}\_{-\pi}exp[j(\beta sinx-nx
 > 2. $\sum ^{\infty}_{n=-\infty}J_n ^2(\beta)=1$ </br>
 > 3. For $\beta \ll 1$, $J_0(\beta)\simeq 1$, $J_1(\beta)\simeq \frac{\beta}{2}$, $J_n(\beta)\simeq 0$ for $n\geq 2$ </br>
 </br>
-$S(t)=A_c Re[\sum \_{n=-\infty}^{\infty} J_n(\beta)e^{j2\pi (f_c+nf_m)t}]=A_c \sum \_{n=-\infty}^{\infty} J_n(\beta)\cos[2\pi (f_c+nf_m)t]$ </br>
-Fourier Transform $\rightarrow S(f)=\frac{A_c}{2}\sum\_{n=-\infty}^{\infty}J_n(\beta)[\delta (f-f_c-nf_m)+\delta (f+f_c+nf_m)]$
+$S(t)=A_c Re[\sum _{n=-\infty}^{\infty} J_n(\beta)e^{j2\pi (f_c+nf_m)t}]=A_c \sum _{n=-\infty}^{\infty} J_n(\beta)\cos[2\pi (f_c+nf_m)t]$ </br>
+Fourier Transform $\rightarrow S(f)=\frac{A_c}{2}\sum _{n=-\infty}^{\infty}J_n(\beta)[\delta (f-f_c-nf_m)+\delta (f+f_c+nf_m)]$
 
 \\\TODO
 http://www.edaboard.com/thread236069.html
