@@ -39,7 +39,7 @@ Fourier Transform $\rightarrow S(f)=\frac{A_c}{2}\sum _{n=-\infty}^{\infty}J_n(\
 > 2. $\sum ^{\infty}_{n=-\infty}J_n ^2(\beta)=1$ </br>
 > 3. For $\beta \ll 1$, $J_0(\beta)\simeq 1$, $J_1(\beta)\simeq \frac{\beta}{2}$, $J_n(\beta)\simeq 0$ for $n\geq 2$ </br>
 
-###### NBFM
+##### NBFM
 **$\beta<<1$**
 $S(f)\sim \frac{A_c}{2} [\delta (f-f_c)+\delta(f+f_c)]+\frac {\beta A_c}{4}[\delta (f-f_c-f_m)+\delta (f+f_c+f_m)]-\frac {\beta A_c}{4}[\delta (f-f_c+f_m)+\delta (f+f_c-f_m)]$ </br>
 ![NBFM_spectrum](https://github.com/ChenBlue/Communication-System-Note/blob/master/Angle_Modulation/Material/NBFM_spectrum.PNG) </br>
